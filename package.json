@@ -4,7 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "tsx watch --ignore ./* --clear-screen=false ./app/server.ts"
+    "dev": "tsx watch --ignore ./* --clear-screen=false ./src/server.ts"
   },
   "dependencies": {},
   "devDependencies": {
