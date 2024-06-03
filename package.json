@@ -1,0 +1,16 @@
+{
+  "name": "tsx-dead-import-test",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --ignore ./* --clear-screen=false ./app/server.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.11.2",
+    "typescript": "^5.4.5"
+  }
+}
